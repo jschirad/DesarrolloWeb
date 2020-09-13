@@ -1,0 +1,115 @@
+body {
+	background-color: #ffffff;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h1 {
+	font-size: 4em;
+}
+
+h3 {
+	color: cornflowerblue;
+	font-size: 2em;
+}
+
+a {
+	color: whitesmoke;
+	margin: 10px 20px;
+	text-decoration: none;
+}
+
+a:hover {
+	color: blue;
+}
+
+.top-img {
+	position: relative;
+	text-align: center;
+	margin: auto;
+	top: 30px;
+}
+
+.presentation {
+	background-color: cornflowerblue;
+	height: 300px;
+	color: whitesmoke;
+	position: relative;
+	top: 50px;
+	text-align: center;
+}
+
+.skills {
+	position: relative;
+	top: 250px;
+	text-align: center;
+}
+
+.cloud {
+	width: 70%;
+	margin: 100px auto 100px auto;
+	text-align: left;
+	text-align: justify;
+	line-height: 2;
+}
+
+.cloudImg {
+	width: 20%;
+	float: left;
+	margin-right: 20px;
+}
+
+.programming {
+	width: 70%;
+	margin: 100px auto 100px auto;
+	text-align: right;
+	line-height: 2;
+}
+
+.proImg {
+	width: 18%;
+	float: right;
+	margin-left: 20px;
+}
+
+.sysadmin {
+	width: 70%;
+	margin: 100px auto 100px auto;
+	text-align: left;
+	text-align: justify;
+	line-height: 2;
+}
+
+.sysImg {
+	width: 22%;
+	float: left;
+	margin-right: 25px;
+	margin-top: 20px;
+}
+.experiencia {
+	position: relative;
+	text-align: center;
+	top: 400px;
+}
+
+.Junior {
+	text-align: justify;
+	margin-right: 50px;
+	margin-left: 50px;
+	line-height: 2;
+}
+
+.education {
+	position: relative;
+	top: 400px;
+	text-align: center;
+}
+
+.footer-link {
+	position: relative;
+	top: 500px;
+	text-align: center;
+	background-color: cornflowerblue;
+	color: whitesmoke;
+	height: 140px;
+	font-size: 1em;
+}
