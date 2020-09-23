@@ -1,4 +1,4 @@
-TinDog Starting Files
+# TinDog Starting Files
 
 Iconos
 https://fontawesome.com/
@@ -8,3 +8,7 @@ Google Fonts
 
 Css Framework
 Boostrap 4.5
+
+Pagina web desarrolada utilizando HTML CSS Boostrap
+
+![image](screenshot.jpg)
