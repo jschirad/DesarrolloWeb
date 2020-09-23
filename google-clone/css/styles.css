@@ -1,0 +1,180 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: transparent;
+}
+
+a {
+	text-decoration: none;
+}
+
+header {
+	width: 100%;
+	height: 60px;
+}
+header nav {
+	display: flex;
+	justify-content: flex-end;
+}
+
+header nav .nav-right {
+	display: flex;
+	justify-content: flex-end;
+	margin-top: 20px;
+	margin-right: 20px;
+	width: 250px;
+	height: auto;
+	display: flex;
+	list-style: none;
+	justify-content: center;
+	align-items: center;
+}
+
+nav .nav-right a {
+	margin-right: 10px;
+	color: black;
+}
+
+.icon {
+	width: 100%;
+}
+
+.icon-menu {
+	background-image: url('https://static.thenounproject.com/png/756729-200.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	width: 25px;
+	height: 25px;
+}
+
+.icon-foto {
+	background-image: url(/images/avataaars.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	width: 40px;
+	height: 40px;
+	margin-left: 10px;
+}
+
+main {
+	margin-top: 200px;
+	text-align: center;
+}
+
+main .main-logo {
+	width: 500px;
+	margin: 0 auto;
+	margin-bottom: 40px;
+}
+
+main .main-logo img {
+	width: 70%;
+}
+
+main .main-input {
+	width: 500px;
+	margin: 0 auto;
+	margin-bottom: 40px;
+}
+
+main .main-input-container {
+	width: 500px;
+	height: 45px;
+	border-radius: 100px;
+	border: solid 1px #dfe1e5;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+main .main-input input {
+	width: 420px;
+	height: auto;
+	border-color: transparent;
+}
+
+main .main-input-container:hover {
+	box-shadow: 0 1px 6px 0 dimgray;
+}
+
+main .main-input .search-icon {
+	background-image: url('https://cdn0.iconfinder.com/data/icons/google-material-design-3-0/48/ic_search_48px-512.png') ;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	width: 18px;
+	height: 18px;
+}
+
+main .main-input .icon-micro {
+	background-image: url("https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png") ;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	width: 18px;
+	height: 18px;
+	cursor: pointer;
+}
+
+main .main-buttons {
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+	width: 500px;
+}
+
+main .main-buttons button {
+	height: 40px;
+	background-color: #f2f2f2;
+	border: 0;
+	font-size: 14px;
+	color: #5f6365;
+	border-radius: 5px;
+	padding: 0 15px;
+	margin-right: 15px;
+}
+
+main .main-buttons button:hover {
+	border: 1px solid #c6c6c6;
+	box-shadow: 0 1px 1px dimgray;
+	color: black;
+}
+
+footer {
+	width: 100%;
+	height: 50px;
+	position: absolute;
+	bottom: 0;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	align-items: center;
+	font-size: 13px;
+	background-color: #f2f2f2;
+	border-top: solid 1px #e4e4e4;
+}
+
+footer ul {
+	margin: 10px;
+	list-style: none;
+	display: flex;
+	padding-left: 0;
+}
+
+footer .footer-left {
+	justify-self: left;
+}
+
+footer .footer-right {
+	justify-self: right;
+}
+
+footer ul li a {
+	margin: 10px;
+	color: #5f6365;
+}
+
+footer ul li a:hover {
+	color: black;
+}
